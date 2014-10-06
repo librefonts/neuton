@@ -1,0 +1,8 @@
+commit: HEAD
+process_files: [Neuton-Regular.ttf.ttx, Neuton-Light.ttf.ttx, Neuton-Italic.ttf.ttx,
+  Neuton-ExtraLight.ttf.ttx, Neuton-ExtraBold.ttf.ttx, Neuton-Bold.ttf.ttx, src/Neuton-Italic.otf.ttx,
+  src/Neuton-Regular-TTF.sfd, src/Neuton-Light-TTF.sfd, src/Neuton-Italic.sfd, src/Neuton-Italic-TTF.sfd,
+  src/Neuton-ExtraLight-TTF.sfd, src/Neuton-ExtraBold-TTF.sfd, src/Neuton-Bold-TTF.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
